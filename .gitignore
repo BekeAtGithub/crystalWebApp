@@ -1,0 +1,28 @@
+# Ignore Crystal build artifacts
+*.o
+*.a
+*.s
+
+# Ignore compiled binaries
+main
+
+# Ignore shard dependencies
+lib/
+
+# Ignore Docker-related files
+docker-compose.override.yml
+docker-compose.override.*
+
+# Terraform-related files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore log files
+*.log

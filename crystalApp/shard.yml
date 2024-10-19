@@ -1,0 +1,8 @@
+name: my-crystal-app
+version: 0.1.0
+authors:
+  - Your Name <your.email@example.com>
+
+dependencies:
+  http:
+    github: crystal-lang/crystal
