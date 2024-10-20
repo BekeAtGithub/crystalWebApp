@@ -13,3 +13,8 @@ variable "security_group_ids" {
   description = "Security group IDs for the ECS service"
   type        = list(string)
 }
+
+variable "vpc_id" {
+  description = "The ID of the VPC in which to deploy the ECS service"
+  type        = string
+}
