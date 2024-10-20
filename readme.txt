@@ -44,6 +44,7 @@ variable.tf has the key:pair assignments for region, subnets, security group ids
 outputs.tf use the service name, cluster name and repo name to help track resources and referenced by terraform modules
 provider.tf expands on the provider
 ecs-task-definition.tf defines the ecs task, family, container definitions, compatibility and resource utilization for the crystal application
+terraform.tfvars defines security group id, subnet and vpc names
 
 # github action workflows
 triggers pipelines with push and pull request events on the main branch
