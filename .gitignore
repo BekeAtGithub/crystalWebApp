@@ -3,7 +3,7 @@
 *.a
 *.s
 
-# Ignore compiled binaries
+# Ignore compiled binaries 
 main
 
 # Ignore shard dependencies
