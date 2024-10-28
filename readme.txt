@@ -1,4 +1,4 @@
-SRECHALLENGE2/
+crystalWebApp/
 │
 ├── crystalApp/
 │   ├── src/
