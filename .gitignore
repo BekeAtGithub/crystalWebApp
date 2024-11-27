@@ -1,4 +1,4 @@
-# Ignore Crystal build artifacts
+# Ignore Crystal build artifacts 
 *.o
 *.a
 *.s
