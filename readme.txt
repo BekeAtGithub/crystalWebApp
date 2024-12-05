@@ -1,6 +1,6 @@
 crystalWebApp/
 │
-├── crystalApp/
+├── crystalApp/ 
 │   ├── src/
 │   │   └── main.cr            # The main Crystal application file
 │   └── shard.yml              # Crystal dependencies file (like a Gemfile in Ruby)
